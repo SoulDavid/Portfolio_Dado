@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo flexbox para movil</title>
+    <link href="style.css" type="text/css" rel="stylesheet" media="">
+    <script src="code.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+            <ul id="button">
+                <li><button id="showFront">BIOGRAFÍA</button></li>
+                <li><button id="showBack">ESTUDIOS</button></li>
+                <li><button id="showRight">HOBBIES</button></li>
+                <li><button id="showLeft">APTITUDES</button></li>
+                <li><button id="showUp">PROYECTOS</button></li>
+                <li><button id="showDown">CONTACTO</button></li>
+            </ul>
+
+        <div id="content">
+
+            <img id = "imgFront" class = "imgBio" src = "Assets/Biografia.png">
+            <img id = "imgBack" class = "imgEstudios" src = "Assets/Estudios.png">
+            <img id = "imgRight" class = "imgHobbies" src = "Assets/Hobbies.png">
+            <img id = "imgLeft" class = "imgAptitudes" src = "Assets/Aptitudes.png">
+            <img id = "imgTop" class = "imgProyectos" src = "Assets/Proyectos.png">
+            <img id = "imgDown" class = "imgContactos" src = "Assets/Contacto.png">
+
+            <div id="cubeContainer">
+                <div id="cube">
+                    <div class="front">BIOGRAFÍA </div>
+                    <div class="back"> ESTUDIOS </div>
+                    <div class="right"> HOBBIES </div>
+                    <div class="left"> APTITUDES </div>
+                    <div class="top"> PROYECTOS </div>
+                    <div class="down">CONTACTO </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id = "mySidenav" class = "sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href = "http://www.colegio-alameda.com/" target="_blank"> Colegio Alameda De Osuna </a>
+        <a href = "https://www.esne.es/" target="_blank"> ESNE </a>
+        <a href = "https://www.linkedin.com/in/david-martin-almazan/" target="_blank"> LinkedIn </a>
+        <a href = "https://david-martin-almazan.itch.io/" target="_blank"> Itch.Io </a>
+        <a></br></br> Proyectos </br></br></a>
+        <a href = "https://aaronar-gd.itch.io/alighieri" target="_blank"> Alighieri </a>
+        <a href = "https://david-martin-almazan.itch.io/memorygame-mangas-version" target="_blank"> Memory Game </a>
+        <a href = "https://david-martin-almazan.itch.io/back-forward" target="_blank"> Back Forward </a>
+        <a href = "https://zemzio.itch.io/the-final-decision" target="_blank"> The Final Decision </a>
+        <a href = "https://irene-godoy.itch.io/flame-rhythm" target="_blank"> Flame's Rythm </a>
+    </div>
+
+    <span id = "open" onclick="openNav()"> &#9776; Enlaces de interés </span>
+
+</body>
+
+</html>
